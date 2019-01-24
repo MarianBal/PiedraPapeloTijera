@@ -13,17 +13,31 @@ var jugadorUno;
 var jugadosDos;
 
 var ganadorUno = 0;
-var jugadorDos = 0;
+var ganadorDos = 0;
 
-    while(ganadorUno < 2){
+    while(ganadorUno < 2 && ganadorDos < 2){
 
         jugadorUno = prompt('Piedra, papel o tijera');
         jugadorDos = prompt('Piedra, papel o tijera');
+
+        if ((jugadorUno ==='piedra' || jugadorUno ==='papel' || jugadorUno ==='tijera' )&& (jugadorDos ==='piedra' || jugadorDos ==='papel' || jugadorDos ==='tijera' )){
+
+            if(jugadorUno ==='piedra' && jugadorDos ==='piedra'){
+
+                console.log ('Empate'); 
+            }
+
         
 
-        console.log(jugadorUno);
+        
         ganadorUno = ganadorUno + 1;
         console.log(ganadorUno);
+
+        } else{
+            console.log('Haceme caso!');
+
+            ganadorUno = 666;
+        }
         
     }
 
