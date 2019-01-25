@@ -28,7 +28,7 @@ if ((jugadorUno ==='piedra' || jugadorUno ==='papel' || jugadorUno ==='tijera' )
 
     }else if(jugadorUno ==='papel' && jugadorDos ==='piedra'){
 
-        GanadorUno++;
+        ganadorUno = ganadorUno ++;
 
         console.log ('jugadorUno ' + GanadorUno);
         
@@ -76,5 +76,6 @@ if ((jugadorUno ==='piedra' || jugadorUno ==='papel' || jugadorUno ==='tijera' )
     console.log('Haceme caso');
 }
 }
+
 
 
