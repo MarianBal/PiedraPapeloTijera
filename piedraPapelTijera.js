@@ -131,5 +131,3 @@ switch (true){
 
 
 
-/*
-        $case=($a=1 and $b=1)?0:(($a=1 and $b=0)?1:(($a=0 and $b=1)?2:3));*/
