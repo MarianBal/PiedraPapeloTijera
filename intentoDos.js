@@ -20,6 +20,8 @@ var ganadorDos = 0;
         jugadorUno = prompt('jugador Uno: piedra, papel o tijera');
         jugadorDos = prompt('jugador Dos: Piedra, papel o tijera');
 
+        
+
         if ((jugadorUno ==='piedra' || jugadorUno ==='papel' || jugadorUno ==='tijera' )&& (jugadorDos ==='piedra' || jugadorDos ==='papel' || jugadorDos ==='tijera' )){
 
             if(jugadorUno ==='piedra' && jugadorDos ==='piedra'){
